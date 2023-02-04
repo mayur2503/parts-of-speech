@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Box, Center, Input, Button, HStack, VStack } from '@chakra-ui/react'
+import { Box, Center, Input, HStack, VStack } from '@chakra-ui/react'
 import Loader from './Loader';
 import axios, { AxiosResponse } from 'axios';
 import PartsOfSpeech from './PartsOfSpeech';

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Box, Center, Input, Button, HStack, VStack, Text } from '@chakra-ui/react'
+import { Box, HStack, VStack, Text } from '@chakra-ui/react'
 import { Ipos } from './MainContainer';
 export interface IPartsOfSpeechProps {
     data: Ipos | null

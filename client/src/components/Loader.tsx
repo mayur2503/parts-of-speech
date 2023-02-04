@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Box, Center, Input, Text, HStack, VStack } from '@chakra-ui/react'
+import { Box, Text, HStack, VStack } from '@chakra-ui/react'
 export interface ILoaderProps {
     isLoding: boolean
 }
