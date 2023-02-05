@@ -19,15 +19,13 @@ export default function Loader(props: ILoaderProps) {
         }
     }, [])
 
-    React.useEffect(() => {
-        console.log('counter', counter)
-    }, [counter])
-
     return (
         <HStack>
             <VStack>
                 <Box className='loading'>Loading ...</Box>
                 <Text> {counter > 10 ? `hush... it's taking long time please wait 😓😓😓` : null}</Text>
+                {counter>60 ?<Text>looks like you have attached very large file. I'm working on it....</Text>:null}
+                {counter>120 ?<Text>🥱🥱🥱 chill for sometime 🍺🍺🍺 </Text>:null}
             </VStack>
         </HStack>
     );
